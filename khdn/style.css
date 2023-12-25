@@ -1956,6 +1956,7 @@
   align-items: center;
   position: relative;
 }
+.header-main1 .item>.link{margin-right: 15px;}
 
 .header-main1 .text-wrapper {
   position: relative;
@@ -2079,7 +2080,6 @@
 .header-main1 .div-main-menu-right {
   display: inline-flex;
   align-items: center;
-  gap: 100px;
   position: relative;
   flex: 0 0 auto;
 }
@@ -2113,7 +2113,7 @@
 .header-main1 .link-2dn img{
   max-height: 40px;
 }
-
+.sticky .item>.link{margin-right: 15px;}
 .header-main1 .login {
   position: relative;
   width: 24px;
