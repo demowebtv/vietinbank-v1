@@ -1933,19 +1933,17 @@
   flex: 1;
   flex-grow: 1;
 }
-.header-main1 .item-margin:hover{
-  border-bottom-width: 3px;
-  border-bottom-style: solid;
-  border-color: #e40013;
+.header-main1 .item-margin:hover .div,.item:hover .div,.header-main1 .item:hover .symbol-2{
+  color: var(--base-colormain-sea-blue);cursor: pointer;
 }
-.header-main1 .menu-active {
+.header-main1 .menu-active .link-wrapper{
   border-bottom-width: 3px;
   border-bottom-style: solid;
   border-color: #e40013;
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 20px 0px;
+  padding: 15px 0px;
   position: relative;
   flex: 0 0 auto;
 }
