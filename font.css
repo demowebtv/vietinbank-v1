@@ -1,39 +1,55 @@
+﻿/*svn-gilroy start*/
 @font-face {
-    font-family: SVN-Gilroy;
-    src: local("SVN-Gilroy Medium Italic"),local("SVN-GilroyMediumItalic"),url(assets/SVN-GilroyMediumItalic.0aeef43f.woff2) format("woff2"),url(assets/SVN-GilroyMediumItalic.73b16237.woff) format("woff"),url(assets/SVN-GilroyMediumItalic.e89902e1.ttf) format("truetype");
-    font-weight: 500;
-    font-style: italic;
-    font-display: swap
+    font-family: 'svn-gilroy-bold';
+    src: url('fonts/svn-gilroy-bold.otf') format('opentype');
 }
 
 @font-face {
-    font-family: SVN-Gilroy;
-    src: local("SVN-Gilroy Bold Italic"),local("SVN-GilroyBoldItalic"),url(assets/SVN-GilroyBoldItalic.81a13c10.woff2) format("woff2"),url(assets/SVN-GilroyBoldItalic.9a4a50aa.woff) format("woff"),url(assets/SVN-GilroyBoldItalic.7c0e0ee0.ttf) format("truetype");
-    font-weight: 700;
-    font-style: italic;
-    font-display: swap
+    font-family: 'svn-gilroy-heavy-italic';
+    src: url('fonts/svn-gilroy-heavy-italic.otf') format('opentype');
 }
 
 @font-face {
-    font-family: SVN-Gilroy;
-    src: local("SVN-Gilroy Medium"),local("SVN-GilroyMedium"),url(assets/SVN-GilroyMedium.c5f7e92d.woff2) format("woff2"),url(assets/SVN-GilroyMedium.ffc64835.woff) format("woff"),url(assets/SVN-GilroyMedium.391e8f17.ttf) format("truetype");
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap
+    font-family: 'svn-gilroy-medium-italic';
+    src: url('fonts/svn-gilroy-medium-italic.otf') format('opentype');
 }
 
 @font-face {
-    font-family: SVN-Gilroy;
-    src: local("SVN-Gilroy"),url(assets/SVN-Gilroy.715b0276.woff2) format("woff2"),url(assets/SVN-Gilroy.6c99394b.woff) format("woff"),url(assets/SVN-Gilroy.2ef86133.ttf) format("truetype");
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap
+    font-family: 'svn-gilroy-medium';
+    src: url('fonts/svn-gilroy-medium.otf') format('opentype');
 }
 
 @font-face {
-    font-family: SVN-Gilroy;
-    src: local("SVN-Gilroy Bold"),local("SVN-GilroyBold"),url(assets/SVN-GilroyBold.c3fbd897.woff2) format("woff2"),url(assets/SVN-GilroyBold.a3f3c1d6.woff) format("woff"),url(assets/SVN-GilroyBold.c6ef073b.ttf) format("truetype");
-    font-weight: 700;
-    font-style: normal;
-    font-display: swap
+    font-family: 'svn-gilroy-regular';
+    src: url('fonts/svn-gilroy-regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'svn-gilroy-semibold';
+    src: url('fonts/svn-gilroy-semibold.otf') format('opentype');
+}
+/*svn-gilroy end*/
+
+.gilroy-bold {
+    font-family: 'svn-gilroy-bold',sans-serif;
+}
+
+.gilroy-heavy-italic {
+    font-family: 'svn-gilroy-heavy-italic',sans-serif;
+}
+
+.gilroy-medium-italic {
+    font-family: 'svn-gilroy-medium-italic',sans-serif;
+}
+
+.gilroy-medium {
+    font-family: 'svn-gilroy-medium',sans-serif;
+}
+
+.gilroy-regular {
+    font-family: 'svn-gilroy-regular',sans-serif;
+}
+
+.gilroy-semibold {
+    font-family: 'svn-gilroy-semibold',sans-serif;
 }
