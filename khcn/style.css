@@ -2315,16 +2315,35 @@
 .home-KHCN .service:hover .text-wrapper{
   transform: scale(1.1);cursor: pointer;font-weight: bold;
 }
-.slides-navigation {
+.carousel {
+  display: flex;
+  flex-direction: column;
+  height: 584px;
+  align-items: center;
+  gap: 24px;
+  padding: 40px 64px 0px;
+  position: relative;
+}
+
+.carousel .slides-box {
+  position: relative;
+  flex: 1;
+  align-self: stretch;
+  width: 100%;
+  flex-grow: 1;
+}
+
+.carousel .slides-navigation {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   gap: 8px;
   padding: 8px;
   position: relative;
+  flex: 0 0 auto;
 }
 
-.slides-navigation .click-area {
+.carousel .click-area {
   display: inline-flex;
   align-items: flex-start;
   padding: 8px;
@@ -2332,13 +2351,13 @@
   flex: 0 0 auto;
 }
 
-.slides-navigation .img {
+.carousel .img {
   position: relative;
   width: 24px;
   height: 24px;
 }
 
-.slides-navigation .slide-indicator {
+.carousel .slide-indicator {
   display: inline-flex;
   align-items: center;
   gap: 10px;
@@ -2347,7 +2366,7 @@
   flex: 0 0 auto;
 }
 
-.slides-navigation .dot-indictaor {
+.carousel .dot-indictaor {
   position: relative;
   width: 16px;
   height: 16px;
@@ -2355,7 +2374,7 @@
   border-radius: 8px;
 }
 
-.slides-navigation .div {
+.carousel .div {
   position: relative;
   width: 12px;
   height: 12px;
