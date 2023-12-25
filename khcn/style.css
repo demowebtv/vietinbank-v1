@@ -772,7 +772,7 @@
   gap: 16px;
   position: relative;
   flex: 0 0 auto;
-  height: 245px;
+  height: 250px;
 }
 
 .home-KHCN .profile {
@@ -842,6 +842,7 @@
   font-weight: var(--SVN-gilroy-20-20px-semibold-font-weight);
   color: var(--black);
   text-align: center;
+  font-size: 20px;
   letter-spacing: var(--SVN-gilroy-20-20px-semibold-letter-spacing);
   line-height: var(--SVN-gilroy-20-20px-semibold-line-height);
   font-style: var(--SVN-gilroy-20-20px-semibold-font-style);
@@ -850,14 +851,14 @@
 .home-KHCN .text-wrapper-6 {
   position: relative;
   width: fit-content;
-  font-family: var(--SVN-gilroy-17-17px-regular-font-family);
-  font-weight: var(--SVN-gilroy-17-17px-regular-font-weight);
-  color: var(--gray-paragraph);
-  font-size: var(--SVN-gilroy-17-17px-regular-font-size);
-  letter-spacing: var(--SVN-gilroy-17-17px-regular-letter-spacing);
-  line-height: var(--SVN-gilroy-17-17px-regular-line-height);
-  white-space: nowrap;
-  font-style: var(--SVN-gilroy-17-17px-regular-font-style);
+  /* font-family: var(--SVN-gilroy-17-17px-regular-font-family); */
+  /* font-weight: var(--SVN-gilroy-17-17px-regular-font-weight); */
+  /* color: var(--gray-paragraph); */
+  /* font-size: var(--SVN-gilroy-17-17px-regular-font-size); */
+  /* letter-spacing: var(--SVN-gilroy-17-17px-regular-letter-spacing); */
+  /* line-height: var(--SVN-gilroy-17-17px-regular-line-height); */
+  /* white-space: nowrap; */
+  /* font-style: var(--SVN-gilroy-17-17px-regular-font-style); */
 }
 
 .home-KHCN .gi-i-th-ng-sao-khu {
@@ -867,6 +868,7 @@
   font-weight: var(--SVN-gilroy-20-20px-semibold-font-weight);
   color: var(--black);
   text-align: center;
+  font-size: 20px;
   letter-spacing: var(--SVN-gilroy-20-20px-semibold-letter-spacing);
   line-height: var(--SVN-gilroy-20-20px-semibold-line-height);
   font-style: var(--SVN-gilroy-20-20px-semibold-font-style);
@@ -892,6 +894,7 @@
   font-weight: var(--SVN-gilroy-20-20px-semibold-font-weight);
   color: var(--black);
   text-align: center;
+  font-size: 20px;
   letter-spacing: var(--SVN-gilroy-20-20px-semibold-letter-spacing);
   line-height: var(--SVN-gilroy-20-20px-semibold-line-height);
   font-style: var(--SVN-gilroy-20-20px-semibold-font-style);
@@ -911,13 +914,13 @@
 .home-KHCN .ng-n-h-ng-b-n-l-ng-n {
   width: 100%;
   position: relative;
-  /* height: 64px; */
   font-family: var(--SVN-gilroy-20-20px-semibold-font-family);
   font-weight: var(--SVN-gilroy-20-20px-semibold-font-weight);
   color: var(--black);
+  font-size: 20px;
   text-align: center;
-  /* letter-spacing: var(--SVN-gilroy-20-20px-semibold-letter-spacing); */
-  /* line-height: var(--SVN-gilroy-20-20px-semibold-line-height); */
+  letter-spacing: var(--SVN-gilroy-20-20px-semibold-letter-spacing);
+  line-height: var(--SVN-gilroy-20-20px-semibold-line-height);
   font-style: var(--SVN-gilroy-20-20px-semibold-font-style);
 }
 
@@ -928,6 +931,7 @@
   font-weight: var(--SVN-gilroy-20-20px-semibold-font-weight);
   color: var(--black);
   text-align: center;
+  font-size: 20px;
   letter-spacing: var(--SVN-gilroy-20-20px-semibold-letter-spacing);
   line-height: var(--SVN-gilroy-20-20px-semibold-line-height);
   font-style: var(--SVN-gilroy-20-20px-semibold-font-style);
