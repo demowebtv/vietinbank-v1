@@ -268,12 +268,30 @@
   flex: 0 0 auto;
 }
 
-.intro-page .tm-kim {
-  display: inline-flex;
-  align-items: center;
-  gap: 4px;
-  position: relative;
-  flex: 0 0 auto;
+.tm-kim input.search {
+  width: 260px;
+  border: 1px solid var(--base-colorwhite);
+  display: block;
+  padding: 9px 4px 9px 40px;
+  background: transparent url("img/search-normal.svg") no-repeat 13px;
+  border-radius: 25px;
+  background-size: 20px;
+}
+
+.tm-kim input.search::placeholder {
+  color: var(--base-colorwhite);
+}
+
+.tm-kim input:focus {
+  outline: none;
+}
+
+.tm-kim img {
+  filter: brightness(0) invert(1);
+}
+
+.tm-kim .hide {
+  display: none !important;
 }
 
 .intro-page .img-2 {
@@ -488,7 +506,7 @@
   width: 173px;
   height: 44px;
   gap: 4px;
-  padding: 8px 16px;
+  padding: 8px 16px 8px 22px;
   background-color: var(--base-colormain-crimson);
   border-radius: 4px;
   display: flex;
@@ -664,6 +682,10 @@
   background-color: #005993;
   border-radius: 32px/31.3px;
 }
+.intro-page .chat:hover {
+  cursor: pointer;
+  animation: shake 0.5s ease-in-out;
+}
 
 .intro-page .bi-messenger {
   position: absolute;
@@ -679,6 +701,20 @@
   height: 62.59px;
   background-color: var(--base-colormain-pale-cyan);
   border-radius: 32px/31.3px;
+}
+
+.intro-page .t-vn:hover {
+  cursor: pointer;
+  animation: shake 0.5s ease-in-out;
+}
+
+@keyframes shake {
+    0% { transform: translate(0, 0) rotate(0); }
+    20% { transform: translate(-5px, 0) rotate(-5deg); }
+    40% { transform: translate(5px, 0) rotate(5deg); }
+    60% { transform: translate(-5px, 0) rotate(-5deg); }
+    80% { transform: translate(5px, 0) rotate(5deg); }
+    100% { transform: translate(0, 0) rotate(0); }
 }
 
 .intro-page .remix-icons-line {
@@ -975,14 +1011,15 @@ input:focus {
   flex: 1;
   flex-grow: 1;
 }
-.header .item-margin:hover .div,.item-margin:hover .symbol-2, .item:hover .symbol{
-  color: var(--base-colormain-sea-blue);cursor: pointer;
+.header .item-margin:hover .div,.item-margin:hover .symbol-2 {
+  cursor: pointer;
 }
 .header .menu-active .link-wrapper {
   border-bottom-width: 3px;
   border-bottom-style: solid;
   border-color: #e40013;
-  padding: 26px 0px;
+  padding: 26px 10px;
+  height: 85px;
 }
 
 .header .link {
@@ -1006,6 +1043,7 @@ input:focus {
   line-height: var(--SVN-gilroy-17-17px-semibold-line-height);
   white-space: nowrap;
   font-style: var(--SVN-gilroy-17-17px-semibold-font-style);
+  padding-right: 5px;
 }
 
 .header .pseudo-margin {
@@ -1014,7 +1052,6 @@ input:focus {
   flex-direction: column;
   width: 13.75px;
   align-items: flex-start;
-  padding: 0px 0px 0px 5px;
   position: relative;
 }
 
@@ -1032,11 +1069,11 @@ input:focus {
   text-shadow: 0.05px 0px 0px #ffffffcc;
   position: relative;
   width: fit-content;
-  margin-top: -1px;
+  margin-top: 1px;
   margin-right: -0.25px;
   font-family: "Font Awesome 5 Free-Solid", Helvetica;
   font-weight: 400;
-  color: var(--base-colormain-sea-blue);
+  color: var(--base-colorblack);
   font-size: 14px;
   letter-spacing: 0;
   line-height: 30px;
@@ -1047,7 +1084,7 @@ input:focus {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0 15px;
+  padding: 0 0 0 10px;
   position: relative;
   flex: 0 0 auto;
 }
@@ -1056,7 +1093,7 @@ input:focus {
   display: inline-flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 20px 0px;
+  padding: 27px 10px;
   position: relative;
   flex: 0 0 auto;
 }
@@ -1072,6 +1109,7 @@ input:focus {
   line-height: var(--SVN-gilroy-17-17px-regular-line-height);
   white-space: nowrap;
   font-style: var(--SVN-gilroy-17-17px-regular-font-style);
+  padding-right: 5px;
 }
 
 .header .pseudo-wrapper {
@@ -1080,18 +1118,17 @@ input:focus {
   flex-direction: column;
   width: 13.75px;
   align-items: flex-start;
-  padding: 0px 0px 0px 5px;
   position: relative;
 }
 
 .header .symbol-2 {
   position: relative;
   width: fit-content;
-  margin-top: -1px;
+  margin-top: 1px;
   margin-right: -0.25px;
   font-family: "Font Awesome 5 Free-Solid", Helvetica;
   font-weight: 400;
-  color: var(--base-colormain-sea-blue);
+  color: var(--base-colorblack);
   font-size: 14px;
   letter-spacing: 0;
   line-height: 30px;
@@ -1131,7 +1168,7 @@ input:focus {
   width: 173px;
   height: 45px;
   gap: 4px;
-  padding: 5px 16px;
+  padding: 5px 16px 5px 24px;
   background-color: rgb(228 2 19);
   border-radius: 10px;
   overflow: hidden;
