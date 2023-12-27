@@ -1648,7 +1648,7 @@ input:focus {
   top: 0;
   left: 0;
 }
-.tablinks{cursor: pointer}
+.tablinks,.stablinks{cursor: pointer}
 .mega .rectangle {
   top: 45px;
   position: relative;
