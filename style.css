@@ -1336,6 +1336,7 @@ input:focus {
   flex-wrap: nowrap;
   left: -240px;
   width: 1320px;
+  margin-top: 10px;
 }
 
 .sticky .mega {
@@ -1348,6 +1349,7 @@ input:focus {
   flex-wrap: nowrap;
   left: -300px;
   width: 1320px;
+  margin-top: 7px;
 }
 
 .mega .menuF {
