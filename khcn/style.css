@@ -278,12 +278,12 @@
 }
 
 @keyframes shake {
-    0% { transform: translate(0, 0) rotate(0); }
-    20% { transform: translate(-5px, 0) rotate(-5deg); }
-    40% { transform: translate(5px, 0) rotate(5deg); }
-    60% { transform: translate(-5px, 0) rotate(-5deg); }
-    80% { transform: translate(5px, 0) rotate(5deg); }
-    100% { transform: translate(0, 0) rotate(0); }
+  0% { transform: translate(0, 0) rotate(0); }
+  20% { transform: translate(-5px, 0) rotate(-5deg); }
+  40% { transform: translate(5px, 0) rotate(5deg); }
+  60% { transform: translate(-5px, 0) rotate(-5deg); }
+  80% { transform: translate(5px, 0) rotate(5deg); }
+  100% { transform: translate(0, 0) rotate(0); }
 }
 
 .home-KHCN .overlap-group {
@@ -2118,7 +2118,7 @@
   white-space: nowrap;
   font-style: var(--SVN-gilroy-17-17px-semibold-font-style);
   padding-right: 5px;
-  height: 21.5px;
+  height: 19.5px;
 }
 
 .header-main1 .pseudo-margin {
