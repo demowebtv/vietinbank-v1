@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 10px 0 15px 0;
+  padding: 10px 0 18px 0;
 }
 
 .head .navbar {
@@ -22,7 +22,7 @@
   gap: 16px;
   position: relative;
   flex: 0 0 auto;
-  margin-top: -5px;
+  margin-top: -3px;
 }
 
 .tm-kim {
@@ -1766,6 +1766,7 @@
   height: 46px;
   background-image: url(./img/app-store-eng.png);
   background-size: 100% 100%;
+  margin-bottom: 21.56px;
 }
 
 .home-KHCN .text-wrapper-27 {
@@ -1865,12 +1866,12 @@
 
 .home-KHCN .photo {
   position: relative;
-  width: 96px;
-  height: 96px;
+  width: 113px;
+  height: 113.56px;
   object-fit: cover;
 }
 .contact-center-1 {
-  width: 284.21px;
+  width: 292.25px;
   height: 58.71px;
   display: inline-flex;
   align-items: center;
@@ -2562,6 +2563,8 @@
   letter-spacing: var(--SVN-gilroy-17-17px-regular-letter-spacing);
   line-height: var(--SVN-gilroy-17-17px-regular-line-height);
   font-style: var(--SVN-gilroy-17-17px-regular-font-style);
+  height: 88px;
+  width: 299.47px;
 }
 .home-KHDN .img-2 {
   position: relative;

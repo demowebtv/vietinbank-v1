@@ -418,7 +418,7 @@
   align-items: center;
   justify-content: center;
   gap: 4px;
-  padding: 4px 16px;
+  padding: 5px 16px;
   position: relative;
   border-radius: 16px;
   border: 1px solid;
@@ -442,6 +442,7 @@
   line-height: var(--SVN-gilroy-20-20px-semibold-line-height);
   white-space: nowrap;
   font-style: var(--SVN-gilroy-20-20px-semibold-font-style);
+  margin-top: -3px;
 }
 
 .intro-page .text-wrapper-4 {
@@ -1284,7 +1285,7 @@ input:focus {
 }
 
 /* Change color of dropdown links on hover */
-.dropdown-content a:hover,.sticky-dropdown-content a:hover {background-color: #f1f1f1}
+.dropdown-content a:hover,.sticky-dropdown-content a:hover {background-color: #f1f1f1;}
 
 /* Show the dropdown menu on hover */
 @-webkit-keyframes fadeIn {
@@ -1299,6 +1300,7 @@ input:focus {
   display: block;
   -webkit-animation: fadeIn 1s;
   animation: fadeIn 1s;
+  cursor: pointer;
 }
 .dropdown-content img,.sticky-dropdown-content img{max-height: 50px;}
 .list_me{display: flow-root;}
@@ -1337,6 +1339,7 @@ input:focus {
   left: -240px;
   width: 1320px;
   margin-top: 10px;
+  border-radius: 8px;
 }
 
 .sticky .mega {
@@ -1363,6 +1366,8 @@ input:focus {
   align-self: stretch;
   flex: 0 0 auto;
   background-color: #f6f6fa;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .mega .div {
@@ -1380,6 +1385,11 @@ input:focus {
   gap: 18px;
   position: relative;
   flex: 0 0 auto;
+}
+
+.mega .menuF-2:hover .p{
+  color: var(--base-colormain-sea-blue);
+  cursor: pointer;
 }
 
 .mega .mega_group {
@@ -1418,8 +1428,13 @@ input:focus {
 .mega .menuF-4 {
   display: inline-flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
   position: relative;
+}
+
+.mega .menuF-2:hover .vector,
+.mega .menuF-2:hover .vector-2 {
+  filter: brightness(0) saturate(100%) invert(16%) sepia(100%) saturate(2490%) hue-rotate(188deg) brightness(97%) contrast(103%);
 }
 
 .mega .active .p {
@@ -1598,9 +1613,10 @@ input:focus {
 
 .mega .overlap-group {
   position: relative;
-  width: 17px;
+  width: 18px;
   height: 18px;
   left: -1px;
+  margin-top: 8px;
 }
 
 .mega .overlap-2 {
@@ -1741,6 +1757,8 @@ input:focus {
   flex: 1;
   align-self: stretch;
   flex-grow: 1;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .mega .project-card-2 {
@@ -1790,4 +1808,7 @@ input:focus {
 }
 .interactive-reports .title:hover .menu-text-2{
   color: var(--base-colormain-sea-blue);cursor: pointer;
+}
+.interactive-reports .title:hover .img-2{
+  filter: brightness(0) saturate(100%) invert(16%) sepia(100%) saturate(2490%) hue-rotate(188deg) brightness(97%) contrast(103%);
 }
