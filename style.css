@@ -833,7 +833,6 @@ input:focus {
   flex-grow: 1;
   border-radius: 16px;
   overflow: hidden;
-  background: linear-gradient(180deg, rgb(0, 96, 149) 0%, rgb(126, 211, 247) 54.69%, rgb(215, 21, 58) 100%);
 }
 .box-f3 img{
   transition: 0.4s;
@@ -874,7 +873,6 @@ input:focus {
   flex-grow: 1;
   border-radius: 16px;
   overflow: hidden;
-  background: linear-gradient(180deg, rgb(0, 96, 149) 0%, rgb(126, 211, 247) 54.69%, rgb(215, 21, 58) 100%);
 }
 
 .box-2 {
@@ -922,7 +920,6 @@ input:focus {
   width: 100%;
   border-radius: 16px;
   overflow: hidden;
-  background: linear-gradient(180deg, rgb(0, 96, 149) 0%, rgb(126, 211, 247) 54.69%, rgb(215, 21, 58) 100%);
 }
 
 .box-3 {
@@ -1790,4 +1787,23 @@ input:focus {
 }
 .interactive-reports .title:hover .menu-text-2{
   color: var(--base-colormain-sea-blue);cursor: pointer;
+}
+
+.box-1-bg{
+  background: linear-gradient(29deg, #3eabe8 0%, #2bc0ffba 54.69%, #ff648142 100%);
+}
+.box-2-bg{
+  background: linear-gradient(24deg, #38b4f9 0%, #ff597896 54.69%, #c82343fc 100%);
+}
+.box-3-bg{
+  background: linear-gradient(31deg, #38b4f9 0%, #38b4f9 54.69%, #e89fadcc 100%);
+}
+.box-4-bg{
+  background: linear-gradient(42deg, #03486d 0%, #188bc8 54.69%, #33b6ff 100%);
+}
+.box-5-bg{
+  background: linear-gradient(307deg, #0b71a7de 0%, #089aec 54.69%, #2fabf2 100%);
+}
+.box-6-bg{
+  background: linear-gradient(350deg, #0F6EA1 0%, #0F6EA1 54.69%, #12a8fc 100%);
 }
