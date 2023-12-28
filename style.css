@@ -945,7 +945,6 @@ input:focus {
 }
 /*home link */
 .link_home {
-  height: 30px;
   position: relative;
   width: fit-content;
   font-family: var(--SVN-gilroy-24-24px-regular-font-family);
@@ -964,7 +963,7 @@ input:focus {
 .mask {
   position: relative;
   padding: 0;
-  height: 20px;
+  height: 30px;
 
   /*  Remove overflow to see how it works　:) */
   overflow: hidden;
@@ -978,8 +977,7 @@ input:focus {
   display: block;
 
   /*  Set same font-size and line height  */
-  line-height: 20px;
-
+  line-height: 25px;
   transition: transform 0.4s ease;
 }
 
@@ -989,7 +987,7 @@ input:focus {
 
 .link-title2 {
   transform-origin: left center;
-  transform: rotate(20deg);
+  transform: rotate(38deg);
 }
 
 /* Hover Action*/
