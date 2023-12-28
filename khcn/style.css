@@ -209,7 +209,7 @@
   position: relative;
   width: 124px;
   height: 3px;
-  background-color: var(--base-colorwhite);
+  background-color: var(--base-colorwhite);z-index: 999;
 }
 
 .hero-banner .CTA {
@@ -2518,4 +2518,97 @@
   background-color: var(--carouselgray);
   border-radius: 8px;
   opacity: 0.5;
+}
+
+/*submenu mega*/
+
+.products-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 32px;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.products-left .description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+}
+
+.products-left .text-wrapper {
+  position: relative;
+  width: fit-content;
+  margin-top: -1px;
+  font-weight: 400;
+  color: var(--gray-400);
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+  white-space: nowrap;
+}
+
+.products-left .th-t-n-d-ng-th-ghi-n {
+  position: relative;
+  width: 243.55px;
+  height: 294px;
+  font-weight: 500;
+  color: var(--neutralneutral-grey-1neutral-gray-500);
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 42px;
+}
+.submenu_2{
+  /* margin-left: 200px; */
+  position: absolute;
+  z-index: 1;
+  top: -80px;
+  left: 200px;
+  width: 400px;
+  background: #FFF;
+  height: 359px;
+  padding-left: 100px;
+}
+.description-wrapper .description .text-wrapper-2{
+  font-weight: 400;
+  color: #97a3b7;
+  font-size: 12px;
+  letter-spacing: 0.5px;
+  line-height: 18px;
+}
+.submenu_2{
+  color: #97a3b7;
+}
+.submenu_2 li a{
+  color: #97a3b7;
+  margin: 0;
+  height: auto;
+  text-align: left;
+  font-size: 14px;
+  font-weight: 500;cursor: pointer;
+}
+.submenu_2 li:hover a{
+  background: none;color: var(--base-colormain-sea-blue);
+}
+.submenu_2{display: none;}
+.title:hover>.submenu_2{
+  display: block;
+  -webkit-animation: fadeIn 0.5s;
+  animation: fadeIn 0.5s;
+}
+.text-sub{
+  color: #97A3B7;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 18px;
+  letter-spacing: 0.50px;
+  word-wrap: break-word
 }

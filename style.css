@@ -965,7 +965,7 @@ input:focus {
   padding: 0;
   height: 30px;
 
-  /*  Remove overflow to see how it works　:) */
+  /*  Remove overflow to see how it worksÃ£â‚¬â‚¬:) */
   overflow: hidden;
 }
 
@@ -1590,7 +1590,7 @@ input:focus {
   width: 18px;
   height: 18px;
   left: -1px;
-  margin-top: 8px;
+  margin-top: 5px;
 }
 
 .mega .overlap-2 {
@@ -1647,6 +1647,7 @@ input:focus {
   width: 2px;
   height: 300px;
   background-color: var(--neutralneutral-grey-1neutral-gray-200);
+  z-index: 1;
 }
 
 .mega .project-card-wrapper {
