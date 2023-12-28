@@ -13,7 +13,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 10px 0 15px 0;
+  padding: 10px 0 10px 0;
 }
 
 .head .navbar {
@@ -22,7 +22,7 @@
   gap: 16px;
   position: relative;
   flex: 0 0 auto;
-  margin-top: -5px;
+  margin-top: 0px;
 }
 
 .tm-kim {
@@ -134,7 +134,7 @@
   width: 100%;
   height: 911px;
   /* left: 1px; */
-  background-image: url(./img/BG.png);
+  background-image: url(./img/BG.svg);
   background-size: cover;
   background-position: 50% 50%;
 }
@@ -1775,6 +1775,7 @@
   gap: 21.56px;
   position: relative;
   flex: 0 0 auto;
+  width: 292.25px;
 }
 
 .home-KHCN .app-store-eng {
@@ -1783,6 +1784,7 @@
   height: 46px;
   background-image: url(./img/app-store-eng.png);
   background-size: 100% 100%;
+  margin-bottom: 21.56px;
 }
 
 .home-KHCN .text-wrapper-27 {
@@ -1882,13 +1884,13 @@
 
 .home-KHCN .photo {
   position: relative;
-  width: 96px;
-  height: 96px;
+  width: 113px;
+  height: 113.56px;
   object-fit: cover;
 }
 
 .contact-center-1 {
-  width: 284.21px;
+  width: 292.25px;
   height: 58.71px;
   display: inline-flex;
   align-items: center;
@@ -2214,7 +2216,6 @@
   flex-direction: column;
   width: 13.75px;
   align-items: flex-start;
-  padding: 0px 0px 0px 5px;
   position: relative;
 }
 

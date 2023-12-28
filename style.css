@@ -1595,9 +1595,10 @@ input:focus {
 
 .mega .overlap-group {
   position: relative;
-  width: 17px;
+  width: 18px;
   height: 18px;
   left: -1px;
+  margin-top: 8px;
 }
 
 .mega .overlap-2 {
@@ -1738,6 +1739,8 @@ input:focus {
   flex: 1;
   align-self: stretch;
   flex-grow: 1;
+  border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
 }
 
 .mega .project-card-2 {
@@ -1787,6 +1790,9 @@ input:focus {
 }
 .interactive-reports .title:hover .menu-text-2{
   color: var(--base-colormain-sea-blue);cursor: pointer;
+}
+.interactive-reports .title:hover .img-2{
+  filter: brightness(0) saturate(100%) invert(16%) sepia(100%) saturate(2490%) hue-rotate(188deg) brightness(97%) contrast(103%);
 }
 
 .box-1-bg{
