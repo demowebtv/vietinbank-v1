@@ -2036,6 +2036,7 @@
   flex: 1;
   align-self: stretch;
   flex-grow: 1;
+  margin-top: -2px;
 }
 
 .header-main1 .logo-vietin-bank {
