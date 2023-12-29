@@ -943,6 +943,9 @@ input:focus {
 .box-h .box-f3:hover .text-wrapper,.box-f4:hover .text-wrapper,.box-f7:hover .text-wrapper{
   z-index: 5;
 }
+.box-h .box-f3:hover img,.box-f4:hover img,.box-f7:hover img{
+  z-index: 5;
+}
 /*home link */
 .link_home {
   position: relative;
