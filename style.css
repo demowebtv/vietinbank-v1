@@ -1071,7 +1071,8 @@ input:focus {
   border-bottom-style: solid;
   border-color: #e40013;
   padding: 26px 10px;
-  height: 88px;
+  height: 84px;
+  z-index: 2;
 }
 
 .header .link {
@@ -1301,8 +1302,8 @@ input:focus {
   position: absolute;
   z-index: 1;
   text-align: center;
-  height: 50px;
-  min-width: 176px;
+  /* height: 50px;
+  min-width: 176px; */
 }
 .sticky .sticky-dropdown-content{
   padding-top: 71px;
@@ -1334,7 +1335,7 @@ input:focus {
   border-radius: 8px;
 }
 
-.sticky .mega {
+.header .mega {
   display: flex;
   align-items: center;
   z-index: 99999999999;
@@ -1344,7 +1345,10 @@ input:focus {
   flex-wrap: nowrap;
   left: -300px;
   width: 1320px;
-  margin-top: 7px;
+  margin-top: 10px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
 .mega .menuF {
@@ -1423,14 +1427,14 @@ input:focus {
   position: relative;
   width: fit-content;
   margin-top: -1px;
-  font-family: var(--SVN-gilroy-20-20px-semibold-font-family);
-  font-weight: var(--SVN-gilroy-20-20px-semibold-font-weight);
+  font-family: var(--SVN-gilroy-20-20px-regular-font-family);
+  font-weight: var(--SVN-gilroy-20-20px-regular-font-weight);
   color: var(--base-colormain-sea-blue);
-  font-size: var(--SVN-gilroy-20-20px-semibold-font-size);
-  letter-spacing: var(--SVN-gilroy-20-20px-semibold-letter-spacing);
-  line-height: var(--SVN-gilroy-20-20px-semibold-line-height);
+  font-size: var(--SVN-gilroy-20-20px-regular-font-size);
+  letter-spacing: var(--SVN-gilroy-20-20px-regular-letter-spacing);
+  line-height: var(--SVN-gilroy-20-20px-regular-line-height);
   white-space: nowrap;
-  font-style: var(--SVN-gilroy-20-20px-semibold-font-style);
+  font-style: var(--SVN-gilroy-20-20px-regular-font-style);
 }
 
 .mega .active .vector,
@@ -1513,14 +1517,14 @@ input:focus {
   position: relative;
   width: fit-content;
   margin-top: -1px;
-  font-family: var(--SVN-gilroy-20-20px-semibold-font-family);
-  font-weight: var(--SVN-gilroy-20-20px-semibold-font-weight);
+  font-family: var(--SVN-gilroy-20-20px-regular-font-family);
+  font-weight: var(--SVN-gilroy-20-20px-regular-font-weight);
   color: var(--neutralneutral-grey-1neutral-gray-500);
-  font-size: var(--SVN-gilroy-20-20px-semibold-font-size);
-  letter-spacing: var(--SVN-gilroy-20-20px-semibold-letter-spacing);
-  line-height: var(--SVN-gilroy-20-20px-semibold-line-height);
+  font-size: var(--SVN-gilroy-20-20px-regular-font-size);
+  letter-spacing: var(--SVN-gilroy-20-20px-regular-letter-spacing);
+  line-height: var(--SVN-gilroy-20-20px-regular-line-height);
   white-space: nowrap;
-  font-style: var(--SVN-gilroy-20-20px-semibold-font-style);
+  font-style: var(--SVN-gilroy-20-20px-regular-font-style);
 }
 
 .mega .menuF-6 {
@@ -1598,6 +1602,8 @@ input:focus {
   font-size: 16px;
   letter-spacing: 0;
   line-height: 24px;
+  font-family: var(--SVN-gilroy-17-17px-regular-font-family);
+  white-space: nowrap;
 }
 
 .mega .hand-coin {
