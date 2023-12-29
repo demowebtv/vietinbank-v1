@@ -2084,7 +2084,7 @@
   padding: 16px 10px;
   position: relative;
   flex: 0 0 auto;
-  height: 63px;
+  height: 66px;
 }
 
 .header-main1 .link {
@@ -2133,7 +2133,8 @@
 .header-main1 .symbol {
   position: relative;
   width: fit-content;
-  margin-top: 1px;
+  margin-top: -1px;
+  padding-top: 5px;
   margin-right: -0.25px;
   font-family: "Font Awesome 5 Free-Solid", Helvetica;
   font-weight: 400;
@@ -2188,7 +2189,8 @@
 .header-main1 .symbol-2 {
   position: relative;
   width: fit-content;
-  margin-top: 1px;
+  margin-top: -1px;
+  padding-top: 5px;
   margin-right: -0.25px;
   font-family: "Font Awesome 5 Free-Solid", Helvetica;
   font-weight: 400;

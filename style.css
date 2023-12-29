@@ -1071,7 +1071,7 @@ input:focus {
   border-bottom-style: solid;
   border-color: #e40013;
   padding: 26px 10px;
-  height: 85px;
+  height: 88px;
 }
 
 .header .link {
@@ -1121,7 +1121,8 @@ input:focus {
   text-shadow: 0.05px 0px 0px #ffffffcc;
   position: relative;
   width: fit-content;
-  margin-top: 1px;
+  margin-top: -1px;
+  padding-top: 5px;
   margin-right: -0.25px;
   font-family: "Font Awesome 5 Free-Solid", Helvetica;
   font-weight: 400;
@@ -1176,7 +1177,8 @@ input:focus {
 .header .symbol-2 {
   position: relative;
   width: fit-content;
-  margin-top: 1px;
+  margin-top: -1px;
+  padding-top: 5px;
   margin-right: -0.25px;
   font-family: "Font Awesome 5 Free-Solid", Helvetica;
   font-weight: 400;

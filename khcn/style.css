@@ -2036,6 +2036,7 @@
   flex: 1;
   align-self: stretch;
   flex-grow: 1;
+  margin-top: -2px;
 }
 
 .header-main1 .logo-vietin-bank {
@@ -2091,7 +2092,7 @@
   border-bottom-style: solid;
   border-color: #e40013;
   padding: 26px 10px;
-  height: 84.49px;
+  height: 88px;
 }
 .header-main1 .menu-active {
   border-bottom-width: 3px;
@@ -2103,7 +2104,7 @@
   padding: 18px 10px;
   position: relative;
   flex: 0 0 auto;
-  height: 71px;
+  height: 74px;
 }
 
 .header-main1 .link {
@@ -2152,7 +2153,8 @@
 .header-main1 .symbol {
   position: relative;
   width: fit-content;
-  margin-top: 5px;
+  margin-top: -1px;
+  padding-top: 5px;
   margin-right: -0.25px;
   font-family: "Font Awesome 5 Free-Solid", Helvetica;
   font-weight: 400;
@@ -2207,7 +2209,8 @@
 .header-main1 .symbol-2 {
   position: relative;
   width: fit-content;
-  margin-top: 1px;
+  margin-top: -1px;
+  padding-top: 5px;
   margin-right: -0.25px;
   font-family: "Font Awesome 5 Free-Solid", Helvetica;
   font-weight: 400;
