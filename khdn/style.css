@@ -46,6 +46,13 @@
 
 .tm-kim input.search::placeholder {
   color: var(--base-colorwhite);
+  font-family: var(--SVN-gilroy-12-12px-regular-font-family);
+  font-weight: var(--SVN-gilroy-12-12px-regular-font-weight);
+  font-size: var(--SVN-gilroy-12-12px-regular-font-size);
+  letter-spacing: var(--SVN-gilroy-12-12px-regular-letter-spacing);
+  line-height: var(--SVN-gilroy-12-12px-regular-line-height);
+  white-space: nowrap;
+  font-style: var(--SVN-gilroy-12-12px-regular-font-style);
 }
 
 .tm-kim input:focus {

@@ -1326,6 +1326,7 @@ input:focus {
   left: -240px;
   width: 1320px;
   margin-top: 10px;
+  border-radius: 8px;
 }
 
 .sticky .mega {
@@ -1352,6 +1353,8 @@ input:focus {
   align-self: stretch;
   flex: 0 0 auto;
   background-color: #f6f6fa;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
 }
 
 .mega .div {
@@ -1425,6 +1428,16 @@ input:focus {
   font-style: var(--SVN-gilroy-20-20px-semibold-font-style);
 }
 
+.mega .active .vector,
+.mega .active .vector-2 {
+  filter: brightness(0) saturate(100%) invert(16%) sepia(100%) saturate(2490%) hue-rotate(188deg) brightness(97%) contrast(103%);
+}
+
+.mega .menuF-2:hover .p{
+  color: var(--base-colormain-sea-blue);
+  cursor: pointer;
+}
+
 .mega .overlap-mega_group-wrapper {
   position: relative;
   width: 12.36px;
@@ -1453,6 +1466,11 @@ input:focus {
   height: 3px;
   top: 6px;
   left: 0;
+}
+
+.mega .menuF-2:hover .vector,
+.mega .menuF-2:hover .vector-2 {
+  filter: brightness(0) saturate(100%) invert(16%) sepia(100%) saturate(2490%) hue-rotate(188deg) brightness(97%) contrast(103%);
 }
 
 .mega .vector-wrapper {
