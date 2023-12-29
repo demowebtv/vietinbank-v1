@@ -474,6 +474,86 @@
   padding: 2px 5px 0 0;
 }
 
+.link {
+  height: 30px;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+  display: flex;
+}
+
+.mask {
+  position: relative;
+  padding: 0;
+  height: 20px;
+  overflow: hidden;
+}
+
+.link-container {
+  transition: transform 0.4s ease;
+}
+
+.title {
+  display: block;
+  font-family: "SVN-Gilroy-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--color-palletespicton-bluedark);
+  line-height: 20px;
+  transition: transform 0.4s ease;
+}
+
+.link-title1 {
+  transform-origin: right center;
+}
+
+.link-title2 {
+  transform-origin: left center;
+  transform: rotate(20deg);
+}
+
+.link-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: -3px;
+  overflow: hidden;
+}
+
+.icon {
+  display: block;
+  position: absolute;
+  transition: transform 0.4s ease;
+}
+
+.icon:nth-child(2) {
+  transform: translate(-40px);
+}
+
+.link:hover .link-container {
+  transform: translateY(-20px);
+}
+
+.link:hover .link-title1 {
+  transform: rotate(20deg);
+}
+
+.link:hover .link-title2 {
+  transform: rotate(0);
+}
+
+.link:hover .icon:first-child {
+  transform: translate(40px);
+}
+
+.link:hover .icon:nth-child(2) {
+  transform: translate(0px);
+}
+
 .home-KHCN .arrow-right {
   position: relative;
   width: 20px;
@@ -842,6 +922,10 @@
   background-color: #ffffff;
   border-radius: 10px;
   box-shadow: var(--effect-1);
+}
+.home-KHCN .frame-6:hover {
+  cursor: pointer;
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
 }
 
 .home-KHCN .frame-7 {
@@ -1431,6 +1515,11 @@
   box-shadow: var(--drop-top-move-desktop);
 }
 
+.home-KHCN .cng-c:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
 .home-KHCN .frame-18 {
   display: inline-flex;
   align-items: center;
@@ -1476,6 +1565,11 @@
   box-shadow: var(--drop-top-move-desktop);
 }
 
+.home-KHCN .cng-c-2:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
+}
+
 .home-KHCN .text-wrapper-23 {
   position: relative;
   width: fit-content;
@@ -1506,6 +1600,11 @@
   border: 1px solid;
   border-color: var(--secondary6-eef2fa);
   box-shadow: var(--drop-top-move-desktop);
+}
+
+.home-KHCN .cng-c-3:hover {
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 
 .home-KHCN .footer {
@@ -2092,7 +2191,7 @@
   border-bottom-style: solid;
   border-color: #e40013;
   padding: 26px 10px;
-  height: 88px;
+  height: 84px;
 }
 .header-main1 .menu-active {
   border-bottom-width: 3px;
@@ -2104,7 +2203,7 @@
   padding: 18px 10px;
   position: relative;
   flex: 0 0 auto;
-  height: 74px;
+  height: 70px;
 }
 
 .header-main1 .link {
@@ -2323,6 +2422,7 @@
   position: absolute;
   top: 35px;
   color: var(--color-palletespicton-bluedark);
+  margin-left: 45px;
 }
 .gii-thng .frame-7 .p{
   font-size: 20px;
@@ -2603,9 +2703,14 @@
   text-align: left;
   font-size: 14px;
   font-weight: 500;cursor: pointer;
+  padding: 10px 0;
+  font-family: var(--SVN-gilroy-17-17px-regular-font-family);
 }
 .submenu_2 li:hover a{
   background: none;color: var(--base-colormain-sea-blue);
+}
+.submenu_2 li::marker{
+  font-size: 10px;
 }
 .submenu_2{display: none;}
 .title:hover>.submenu_2{
@@ -2620,5 +2725,7 @@
   text-transform: uppercase;
   line-height: 18px;
   letter-spacing: 0.50px;
-  word-wrap: break-word
+  word-wrap: break-word;
+  margin-top: -25px;
+  font-family: var(--SVN-gilroy-17-17px-regular-font-family);
 }
