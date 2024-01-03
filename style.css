@@ -542,7 +542,9 @@
   gap: 8px;
   position: absolute;
   top: 0;
-  left: 158px;
+  left: 28px;
+  width: 490px;
+  height: 80px;
 }
 
 .intro-page .element-partly-cloudy {
@@ -561,7 +563,7 @@
 
 .intro-page .group {
   position: relative;
-  width: 272px;
+  width: 402px;
   height: 70px;
 }
 
@@ -577,14 +579,14 @@
   position: relative;
   width: fit-content;
   margin-top: -1px;
-  font-family: var(--SVN-gilroy-35-35px-bold-font-family);
-  font-weight: var(--SVN-gilroy-35-35px-bold-font-weight);
+  font-family: var(--SVN-gilroy-29-29px-bold-font-family);
+  font-weight: var(--SVN-gilroy-29-29px-bold-font-weight);
   color: var(--base-colorwhite);
-  font-size: var(--SVN-gilroy-35-35px-bold-font-size);
-  letter-spacing: var(--SVN-gilroy-35-35px-bold-letter-spacing);
-  line-height: var(--SVN-gilroy-35-35px-bold-line-height);
+  font-size: var(--SVN-gilroy-29-29px-bold-font-size);
+  letter-spacing: var(--SVN-gilroy-29-29px-bold-letter-spacing);
+  line-height: var(--SVN-gilroy-29-29px-bold-line-height);
   white-space: nowrap;
-  font-style: var(--SVN-gilroy-35-35px-bold-font-style);
+  font-style: var(--SVN-gilroy-29-29px-bold-font-style);
 }
 
 .intro-page .p {
@@ -598,6 +600,7 @@
   line-height: var(--SVN-gilroy-24-24px-regular-line-height);
   white-space: nowrap;
   font-style: var(--SVN-gilroy-24-24px-regular-font-style);
+  left: 105px;
 }
 
 .intro-page .form {
@@ -1224,7 +1227,7 @@ input:focus {
   height: 45px;
   gap: 4px;
   padding: 5px 16px 5px 24px;
-  background-color: rgb(228 2 19);
+  background-color: rgb(228 2 19) !important;
   border-radius: 10px;
   overflow: hidden;
   display: flex;

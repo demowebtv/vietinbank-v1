@@ -424,14 +424,14 @@
 .home-KHCN .text-wrapper-2 {
   position: relative;
   width: fit-content;
-  font-family: var(--SVN-gilroy-35-35px-semibold-font-family);
-  font-weight: var(--SVN-gilroy-35-35px-semibold-font-weight);
+  font-family: var(--SVN-gilroy-50-50px-semibold-font-family);
+  font-weight: var(--SVN-gilroy-50-50px-semibold-font-weight);
   color: var(--black);
-  font-size: var(--SVN-gilroy-35-35px-semibold-font-size);
-  letter-spacing: var(--SVN-gilroy-35-35px-semibold-letter-spacing);
-  line-height: var(--SVN-gilroy-35-35px-semibold-line-height);
+  font-size: var(--SVN-gilroy-50-50px-semibold-font-size);
+  letter-spacing: var(--SVN-gilroy-50-50px-semibold-letter-spacing);
+  line-height: var(--SVN-gilroy-50-50px-semibold-line-height);
   white-space: nowrap;
-  font-style: var(--SVN-gilroy-35-35px-semibold-font-style);
+  font-style: var(--SVN-gilroy-50-50px-semibold-font-style);
 }
 
 .home-KHCN .button {
@@ -1773,7 +1773,7 @@
   height: 46px;
   background-image: url(./img/app-store-eng.png);
   background-size: 100% 100%;
-  margin-bottom: 21.56px;
+  margin-bottom: 12px;
 }
 
 .home-KHCN .text-wrapper-27 {
@@ -1793,6 +1793,7 @@
   position: relative;
   width: 155.25px;
   height: 46px;
+  margin-bottom: 12px;
 }
 
 .home-KHCN .group-wrapper {
@@ -1873,12 +1874,12 @@
 
 .home-KHCN .photo {
   position: relative;
-  width: 113px;
-  height: 113.56px;
+  width: 155.25px;
+  height: 154.48px;
   object-fit: cover;
 }
 .contact-center-1 {
-  width: 292.25px;
+  width: 332.06px;
   height: 58.71px;
   display: inline-flex;
   align-items: center;
@@ -1887,7 +1888,7 @@
   border-radius: 29.43px;
   border: 1.84px solid;
   border-color: #ffffff;
-  padding: 12.36px 29.43px;
+  padding: 12.36px 54.43px;
   gap: 7.36px;
 }
 
@@ -2084,7 +2085,7 @@
   padding: 16px 10px;
   position: relative;
   flex: 0 0 auto;
-  height: 66px;
+  height: 62px;
 }
 
 .header-main1 .link {
@@ -2232,13 +2233,17 @@
 
 .header-main1 .link-2 {
   text-align: center;
-  width: 143px;
+  width: 173px;
   height: 45px;
   gap: 4px;
-  padding: 5px 16px;
-  border-radius: 14px;
+  padding: 5px 23px;
+  border-radius: 10px;
   overflow: hidden;
   align-items: center;
+  background-color: rgb(228 2 19) !important;
+  display: flex;
+  position: relative;
+  padding-left: 25px;
 }
 .header-main1 .link-2dn {
   width: 173px;
@@ -2532,7 +2537,7 @@
   position: relative;
   flex: 1;
   flex-grow: 1;
-  background-color: var(--base-colormain-sea-blue);
+  background-color: var(--base-colorwhite);
   border-radius: 16px;
   overflow: hidden;
   border: 1px solid;
@@ -2555,7 +2560,7 @@
   width: fit-content;
   font-family: var(--SVN-gilroy-20-20px-semibold-font-family);
   font-weight: var(--SVN-gilroy-20-20px-semibold-font-weight);
-  color: #ffffff;
+  color: #005993;
   font-size: var(--SVN-gilroy-20-20px-semibold-font-size);
   text-align: center;
   letter-spacing: var(--SVN-gilroy-20-20px-semibold-letter-spacing);
@@ -2568,7 +2573,7 @@
   align-self: stretch;
   font-family: var(--SVN-gilroy-17-17px-regular-font-family);
   font-weight: var(--SVN-gilroy-17-17px-regular-font-weight);
-  color: #ffffff;
+  color: #344051;
   font-size: var(--SVN-gilroy-17-17px-regular-font-size);
   text-align: center;
   letter-spacing: var(--SVN-gilroy-17-17px-regular-letter-spacing);
@@ -2612,16 +2617,16 @@
 
 .home-KHDN .section-title {
   margin-top: -1px;
-  font-family: var(--SVN-gilroy-42-42px-semibold-font-family);
-  font-weight: var(--SVN-gilroy-42-42px-semibold-font-weight);
+  font-family: var(--SVN-gilroy-50-50px-semibold-font-family);
+  font-weight: var(--SVN-gilroy-50-50px-semibold-font-weight);
   color: var(--base-colorblack);
-  font-size: var(--SVN-gilroy-42-42px-semibold-font-size);
+  font-size: var(--SVN-gilroy-50-50px-semibold-font-size);
   text-align: center;
-  letter-spacing: var(--SVN-gilroy-42-42px-semibold-letter-spacing);
-  line-height: var(--SVN-gilroy-42-42px-semibold-line-height);
+  letter-spacing: var(--SVN-gilroy-50-50px-semibold-letter-spacing);
+  line-height: var(--SVN-gilroy-50-50px-semibold-line-height);
   position: relative;
   align-self: stretch;
-  font-style: var(--SVN-gilroy-42-42px-semibold-font-style);
+  font-style: var(--SVN-gilroy-50-50px-semibold-font-style);
 }
 
 .home-KHDN .description {
@@ -3043,4 +3048,83 @@
   word-wrap: break-word;
   margin-top: -25px;
   font-family: var(--SVN-gilroy-17-17px-regular-font-family);
+}
+.link {
+  height: 30px;
+  align-items: center;
+  color: #000;
+  text-decoration: none;
+  display: flex;
+}
+
+.mask {
+  position: relative;
+  padding: 0;
+  height: 20px;
+  overflow: hidden;
+}
+
+.link-container {
+  transition: transform 0.4s ease;
+}
+
+.title {
+  display: block;
+  font-family: "SVN-Gilroy-Medium", Helvetica;
+  font-weight: 500;
+  color: var(--color-palletespicton-bluedark);
+  line-height: 20px;
+  transition: transform 0.4s ease;
+}
+
+.link-title1 {
+  transform-origin: right center;
+}
+
+.link-title2 {
+  transform-origin: left center;
+  transform: rotate(20deg);
+}
+
+.link-icon {
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  margin-top: -3px;
+  overflow: hidden;
+}
+
+.icon {
+  display: block;
+  position: absolute;
+  transition: transform 0.4s ease;
+}
+
+.icon:nth-child(2) {
+  transform: translate(-40px);
+}
+
+.link:hover .link-container {
+  transform: translateY(-20px);
+}
+
+.link:hover .link-title1 {
+  transform: rotate(20deg);
+}
+
+.link:hover .link-title2 {
+  transform: rotate(0);
+}
+
+.link:hover .icon:first-child {
+  transform: translate(40px);
+}
+
+.link:hover .icon:nth-child(2) {
+  transform: translate(0px);
 }
