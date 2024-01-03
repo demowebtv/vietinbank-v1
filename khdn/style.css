@@ -2972,7 +2972,6 @@
   line-height: 42px;
 }
 .submenu_2{
-  /* margin-left: 200px; */
   position: absolute;
   z-index: 1;
   top: -80px;
@@ -2980,7 +2979,8 @@
   width: 400px;
   background: #FFF;
   height: 359px;
-  padding-left: 100px;
+  padding-left: 90px;
+  padding-top: 38px;
 }
 .description-wrapper .description .text-wrapper-2{
   font-weight: 400;
